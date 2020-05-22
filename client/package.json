@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-and-deploy": "npm run build && s3cmd sync /Users/amberjones/Desktop/Workspace/aws/react_aws_shiny-computing-machine/client/build/* s3://awsamber.com"
   },
   "eslintConfig": {
     "extends": "react-app"
