@@ -1,6 +1,7 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom'
+import Router from './Router'
 import Nav from './components/Nav'
-import Temp from './components/Temp'
 
 
 
@@ -8,10 +9,10 @@ import Temp from './components/Temp'
 const App = props => {
 
   return (
-    <div>
+    <BrowserRouter>
       <Nav></Nav>
-      <Temp></Temp>
-    </div>
+      <Router/>
+    </BrowserRouter>
   )
 }
 
