@@ -13,7 +13,7 @@ const Landing = props => {
   return (
     <Card>
       <CardContent>
-        <Typography variant="h5">Pulled from redux: {test}</Typography>
+        {test}
       <div style={styles.header}>Welcome to awsamber.com hosted with AWS S3</div>
       <Typography>Created by Amber Jones and under construction...</Typography>
       </CardContent>

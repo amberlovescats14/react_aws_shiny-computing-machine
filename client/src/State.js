@@ -1,3 +1,3 @@
 export default {
-  test: "REXUX SANITY TESTING"
+  test: "REDUX SANITY TESTING"
 }
