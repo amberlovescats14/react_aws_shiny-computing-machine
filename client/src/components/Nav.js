@@ -11,26 +11,37 @@ import MailIcon from '@material-ui/icons/Mail';
 import HomeIcon from '@material-ui/icons/Home';
 import {AppBar, Typography} from '@material-ui/core'
 import { Link } from 'react-router-dom'
-import red from '@material-ui/core/colors/red'
+import purple from '@material-ui/core/colors/purple'
+import teal from '@material-ui/core/colors/teal'
+import cyan from '@material-ui/core/colors/cyan'
 
-const watermelon = red[600]
+const deepPurple = purple[900]
+const mediumPurple = purple[500]
+const lightPurple = purple[100]
+const seaFoam = teal.A100
+const teal2 = cyan.A200
 
 const useStyles = makeStyles({
   root: {
+    background: deepPurple,
+    color: seaFoam
   },
   list: {
     width: 250
     },
   sideList: {
     width: 'auto',
+    background: deepPurple,
+    color: teal2
   },
   button: {
-    color: 'white',
+    color: teal2 ,
     marginRight: 'auto'
   },
   anchors: {
-    color: 'blue',
-    textDecoration: 'none'
+    color: lightPurple,
+    textDecoration: 'none',
+    padding: '5px'
   }
 });
 
