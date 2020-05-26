@@ -1,4 +1,4 @@
-import Landing from '../components/Landing'
+import Landing from '../components/landing/Landing'
 import { connect } from 'react-redux'
 
 const mapStateToProps = state => ({
