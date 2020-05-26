@@ -5,7 +5,7 @@ const Header = props => {
   return (
   <header className="banner">
     <span className="background"></span>
-    <h1>Ken Burns Banner</h1>
+    <h1>Amber Jones</h1>
   </header>
 
   )

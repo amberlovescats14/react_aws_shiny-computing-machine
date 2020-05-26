@@ -19,7 +19,8 @@ const { lightBlue, tan, deepPurple } = Colors;
 const useStyles = makeStyles({
   root: {
     background: deepPurple,
-    color: tan
+    color: tan,
+    marginBottom: '0px !important'
   },
   list: {
     width: 250

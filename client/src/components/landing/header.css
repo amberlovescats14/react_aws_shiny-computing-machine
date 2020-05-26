@@ -1,0 +1,8 @@
+.banner {
+  background: url('https://images.unsplash.com/photo-1585925582725-3ca87232094c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-top: -20px
+
+}
