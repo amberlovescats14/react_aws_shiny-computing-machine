@@ -6,6 +6,23 @@ export const sanityTest = (state = '', action) => {
   }
 }
 
+let commentInitialState = {
+  loading: true,
+  comments: []
+}
+export const getComments = (state = commentInitialState, action) => {
+  const {payload, type} = action
+  switch(type){
+    case `GET_COMMENTS`:
+    return {
+      loading: false,
+      comments: payload
+    }
+    default: return state
+  }
+}
+
 export default combineReducers({
-  test: sanityTest
+  test: sanityTest,
+  commentsData: getComments
 })

@@ -1,3 +1,7 @@
 export default {
-  test: "REDUX SANITY TESTING"
+  test: "REDUX SANITY TESTING",
+  commentsData: {
+    loading: true,
+    comments: []
+  }
 }

@@ -7,16 +7,13 @@ const styles = {
   header: {
     color: 'red'
   },
-  card: {
-    background: 'green',
 
-  }
 }
 
 const Landing = props => {
   const { test } = props
   return (
-    <div style={styles.card}>
+    <div>
       <Header></Header>
       <Card>
       <CardContent>
